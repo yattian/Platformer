@@ -13,7 +13,7 @@ public class FanBlow : MonoBehaviour
             Rigidbody2D rb = other.GetComponent<Rigidbody2D>();
             if (rb)
             {
-                rb.AddForce(Vector2.up * blowStrength * 10, ForceMode2D.Force);
+                rb.AddForce(Vector2.up * blowStrength * 20, ForceMode2D.Force);
 
             }
         }
