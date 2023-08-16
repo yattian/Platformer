@@ -32,12 +32,16 @@ public class HighScoreDisplay : MonoBehaviour
     public TextMeshProUGUI highScoreTextLevel1;
     public TextMeshProUGUI highScoreTextLevel2;
     public TextMeshProUGUI highScoreTextLevel3;
+    public TextMeshProUGUI highScoreTextLevel4;
+    public TextMeshProUGUI highScoreTextLevel5;
 
     private void Start()
     {
         DisplayHighScore("1HighScore", highScoreTextLevel1);
         DisplayHighScore("2HighScore", highScoreTextLevel2);
         DisplayHighScore("3HighScore", highScoreTextLevel3);
+        DisplayHighScore("4HighScore", highScoreTextLevel4);
+        DisplayHighScore("5HighScore", highScoreTextLevel5);
     }
 
     public void DisplayHighScore(string key, TextMeshProUGUI displayText)

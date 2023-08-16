@@ -56,7 +56,7 @@ public class Finish : MonoBehaviour
                 // Save the high score for the current level
                 float currentTime = levelTimer.GetTimeElapsed();
                 string highScoreKey = levelIdentifier + "HighScore";
-                Debug.Log(highScoreKey);
+                // Debug.Log(highScoreKey);
                 if (!PlayerPrefs.HasKey(highScoreKey) || PlayerPrefs.GetFloat(highScoreKey) > currentTime)
                 {
                     PlayerPrefs.SetFloat(highScoreKey, currentTime);

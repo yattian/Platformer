@@ -9,11 +9,21 @@ public class TriggerSpawner : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Player") && !hasSpawned)
+        if (this.CompareTag("Delay1") && collision.gameObject.CompareTag("Player") && !hasSpawned)
+        {
+            Invoke("SpawnTrap", 2);
+            hasSpawned = true; // set the flag to true so it won't spawn again
+        }
+        else if (collision.gameObject.CompareTag("Player") && !hasSpawned)
         {
             spawner.SpawnObject();
             hasSpawned = true; // set the flag to true so it won't spawn again
         }
+    }
+
+    private void SpawnTrap()
+    {
+        spawner.SpawnObject();
     }
 }
 

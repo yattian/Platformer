@@ -12,6 +12,9 @@ TagManager:
   - MovingUp
   - MovingLeft
   - TutFlag
+  - MovingDown
+  - Delay1
+  - MovingPlayer
   layers:
   - Default
   - TransparentFX

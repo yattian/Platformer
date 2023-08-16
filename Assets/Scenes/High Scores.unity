@@ -176,6 +176,8 @@ MonoBehaviour:
   highScoreTextLevel1: {fileID: 17325830}
   highScoreTextLevel2: {fileID: 0}
   highScoreTextLevel3: {fileID: 0}
+  highScoreTextLevel4: {fileID: 0}
+  highScoreTextLevel5: {fileID: 0}
 --- !u!114 &17325830
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -326,6 +328,8 @@ MonoBehaviour:
   highScoreTextLevel1: {fileID: 67984239}
   highScoreTextLevel2: {fileID: 0}
   highScoreTextLevel3: {fileID: 0}
+  highScoreTextLevel4: {fileID: 0}
+  highScoreTextLevel5: {fileID: 0}
 --- !u!114 &67984239
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -476,6 +480,8 @@ MonoBehaviour:
   highScoreTextLevel1: {fileID: 72016848}
   highScoreTextLevel2: {fileID: 0}
   highScoreTextLevel3: {fileID: 0}
+  highScoreTextLevel4: {fileID: 0}
+  highScoreTextLevel5: {fileID: 0}
 --- !u!114 &72016848
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -626,6 +632,8 @@ MonoBehaviour:
   highScoreTextLevel1: {fileID: 364048708}
   highScoreTextLevel2: {fileID: 0}
   highScoreTextLevel3: {fileID: 0}
+  highScoreTextLevel4: {fileID: 0}
+  highScoreTextLevel5: {fileID: 0}
 --- !u!114 &364048708
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -969,6 +977,8 @@ MonoBehaviour:
   highScoreTextLevel1: {fileID: 432421018}
   highScoreTextLevel2: {fileID: 0}
   highScoreTextLevel3: {fileID: 0}
+  highScoreTextLevel4: {fileID: 0}
+  highScoreTextLevel5: {fileID: 0}
 --- !u!114 &432421018
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1211,6 +1221,8 @@ MonoBehaviour:
   highScoreTextLevel1: {fileID: 602720888}
   highScoreTextLevel2: {fileID: 0}
   highScoreTextLevel3: {fileID: 0}
+  highScoreTextLevel4: {fileID: 0}
+  highScoreTextLevel5: {fileID: 0}
 --- !u!114 &602720888
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1647,6 +1659,8 @@ MonoBehaviour:
   highScoreTextLevel1: {fileID: 1148355128}
   highScoreTextLevel2: {fileID: 0}
   highScoreTextLevel3: {fileID: 0}
+  highScoreTextLevel4: {fileID: 0}
+  highScoreTextLevel5: {fileID: 0}
 --- !u!114 &1148355128
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1863,6 +1877,8 @@ MonoBehaviour:
   highScoreTextLevel1: {fileID: 67984239}
   highScoreTextLevel2: {fileID: 432421018}
   highScoreTextLevel3: {fileID: 1406212113}
+  highScoreTextLevel4: {fileID: 1148355128}
+  highScoreTextLevel5: {fileID: 17325830}
 --- !u!1 &1385142804
 GameObject:
   m_ObjectHideFlags: 0
@@ -1916,6 +1932,8 @@ MonoBehaviour:
   highScoreTextLevel1: {fileID: 1385142807}
   highScoreTextLevel2: {fileID: 0}
   highScoreTextLevel3: {fileID: 0}
+  highScoreTextLevel4: {fileID: 0}
+  highScoreTextLevel5: {fileID: 0}
 --- !u!114 &1385142807
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2066,6 +2084,8 @@ MonoBehaviour:
   highScoreTextLevel1: {fileID: 1406212113}
   highScoreTextLevel2: {fileID: 0}
   highScoreTextLevel3: {fileID: 0}
+  highScoreTextLevel4: {fileID: 0}
+  highScoreTextLevel5: {fileID: 0}
 --- !u!114 &1406212113
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2362,6 +2382,8 @@ MonoBehaviour:
   highScoreTextLevel1: {fileID: 1868891107}
   highScoreTextLevel2: {fileID: 0}
   highScoreTextLevel3: {fileID: 0}
+  highScoreTextLevel4: {fileID: 0}
+  highScoreTextLevel5: {fileID: 0}
 --- !u!114 &1868891107
 MonoBehaviour:
   m_ObjectHideFlags: 0
