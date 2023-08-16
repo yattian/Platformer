@@ -7,6 +7,9 @@ public class MoveTowardsPlayer : MonoBehaviour
 
     private Vector2 moveDirection;
 
+    private float distanceTravelled = 0f;
+    public float maxDistance = 50f;
+
     private void Start()
     {
         // Calculate the initial direction towards the player
@@ -21,7 +24,22 @@ public class MoveTowardsPlayer : MonoBehaviour
 
     private void Update()
     {
-        // Move the object continuously in the initial direction
-        transform.position += (Vector3)moveDirection * speed * Time.deltaTime;
+        // Calculate the distance the object moves this frame
+        float moveThisFrame = speed * Time.deltaTime;
+
+        // Increment the total distance traveled
+        distanceTravelled += moveThisFrame;
+
+        // Check if the object has traveled its maximum allowed distance
+        if (distanceTravelled >= maxDistance)
+        {
+            // If so, destroy the object and exit the method early
+            Destroy(gameObject);
+            return;
+        }
+
+        // Otherwise, move the object as usual
+        transform.position += (Vector3)moveDirection * moveThisFrame;
     }
+
 }
